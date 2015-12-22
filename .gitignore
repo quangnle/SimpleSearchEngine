@@ -1,0 +1,14 @@
+/Antelope.Data/bin/Debug
+/Antelope.Data/obj/Debug
+/Antelope.Configuator/bin
+/Antelope.Configuator/obj/Debug
+/Antelope.Configurator/bin
+/Antelope.Configurator/obj/Debug
+/Antelope.Notifier/obj/Debug
+/Antelope.Remoter/obj/Debug
+/Antelope.Tests/obj/Debug
+/Antelope/bin/Debug
+/Antelope/obj/Debug
+/packages
+/Antelope.Web/bin
+/Antelope.Web/obj/Debug
