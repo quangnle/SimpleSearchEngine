@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "SearchResult";
+}
+
+<h2>SearchResult</h2>
+
+<h3>@ViewBag.Query </h3>
+<input id="txtQuery" width="20" />
+<button id="btnSearch">Search</button><br />
+@Html.ActionLink("UpdateSearchIndex", "Default")<br/>
+<h4>Suggestions</h4>
+@foreach (var suggest in ViewBag.Suggestions)
+{ 
+    <a href="/Default/SearchResult?query=@suggest">@suggest</a>
+}
+<h4>Result</h4>
+<table>
+    <tr>
+        <th>Id</th><th>Title</th>
+    </tr>
+    @foreach (var result in ViewBag.Result)
+    {
+    <tr>
+        <td>@result.Id</td>
+        <td>@result.Title</td>
+    </tr>
+    }
+</table>
